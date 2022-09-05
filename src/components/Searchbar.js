@@ -9,7 +9,7 @@ const Searchbar = () => {
 
 //States
 
-  const [search, setSearch] = useState('ditto')
+  const [search, setSearch] = useState()
   const [pokemon, setPokemon] = useState()
 
  //Functions to modify first state setting the input event on it.
