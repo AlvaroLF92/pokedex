@@ -1,4 +1,4 @@
-.searchbar-container {
+.searchbar_container {
   display: flex;
   padding: 15 20px;
   justify-content: center;
@@ -8,10 +8,6 @@
 }
 
 .searchbar {
-  border-radius: 4px;
-}
-
-.searchbar input {
   padding: 10px;
   box-shadow: 2px 2px 2px (0,0,0,0.75);
   border-radius: 5px;
@@ -21,7 +17,7 @@
   background-color: beige
 }
 
-.searchbar-btn button {
+.searchbar_btn {
   background-color: #1294c7;
   border-radius: 12px;
   border: none;

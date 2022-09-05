@@ -1,16 +1,13 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Searchbar from "./components/Searchbar";
+import Navbar from "./components/Navbar/Navbar";
+import Searchbar from "./components/Searchbar/Searchbar";
 
 const App = () => {
 
   return (
-    <div>
+    <div className="App">
       <Navbar />
       <Searchbar />
-      <div className="App">
-
-      </div>
     </div>
   );
 };

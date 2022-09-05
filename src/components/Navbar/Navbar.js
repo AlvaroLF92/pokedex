@@ -2,12 +2,12 @@ import React from "react";
 import './Navbar.css';
 
 const Navbar = () => {
-  const LOGOIMG =
+  const LOGO =
     "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png";
   return (
-    <nav>
+    <nav className="nav">
       <div>
-        <img alt="pokeapi-logo" src={LOGOIMG} className="navbar_img" />
+        <img alt="pokeapi-logo" src={LOGO} className="navbar_img" />
       </div>
     </nav>
   );
